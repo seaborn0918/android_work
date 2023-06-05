@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello world"
+        android:textColor="#3f51b5"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <!--    auto link 속성 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:autoLink="web|phone|email"
+        android:text="이지스 퍼블리싱 : 웹페이지 http://easyspub.com, 전화번호 : 325-1755, 이메일 : easy@easyspub.co.kr" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/koreaSong"
+        android:textColor="@color/myColor"
+        android:textSize="30sp"
+        android:maxLines="3"
+        android:ellipsize="end"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/koreaSong"
+        android:singleLine="true"
+        android:ellipsize="marquee"/>
+
+
+
+
+
+</LinearLayout>

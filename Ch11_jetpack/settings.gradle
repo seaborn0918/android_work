@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Ch11_jetpack"
+include ':app'
+include ':ch11_recyclerview'
+include ':ch11_viewpager'
+include ':ch11_drawer'
+include ':ch11_jetpacklast'

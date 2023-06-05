@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1. 가로 방향으로 순서대로 배치-->
+<!--<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:columnCount="3">-->
+<!--    <Button android:text="A"/>-->
+<!--    <Button android:text="B"/>-->
+<!--    <Button android:text="C"/>-->
+<!--    <Button android:text="D"/>-->
+<!--    <Button android:text="E"/>-->
+
+<!--2. 세로 방향으로 배치. vertical, rowCount-->
+<!--<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:rowCount="3">-->
+<!--    <Button android:text="A"/>-->
+<!--    <Button android:text="B"/>-->
+<!--    <Button android:text="C"/>-->
+<!--    <Button android:text="D"/>-->
+<!--    <Button android:text="E"/>-->
+
+<!--3. 특정 뷰의 위치 조정하기-->
+<!--<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:columnCount="3">-->
+<!--    <Button android:text="A"/>-->
+<!--    <Button android:text="B"/>-->
+<!--    <Button android:text="C"-->
+<!--        android:layout_row="1"-->
+<!--        android:layout_column="1"/>-->
+<!--    <Button android:text="D"/>-->
+<!--    <Button android:text="E"/>-->
+
+<!--4. 특정 뷰의 크기 확장하기 layout_gravity 사용-->
+<!--<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:columnCount="3">-->
+<!--    <Button android:text="A"/>-->
+<!--    <Button android:text="HELLOWORLD HELLOWORLD"/>-->
+<!--    <Button android:text="C"/>-->
+<!--    <Button android:text="D"/>-->
+<!--    <Button android:text="E"-->
+<!--        android:layout_gravity="fill_horizontal"/>  -->
+<!--    <Button android:text="F"/>-->
+
+<!--<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:columnCount="3">-->
+<!--    <Button android:text="A"/>-->
+<!--    <Button android:text="HELLOWORLD HELLOWORLD"/>-->
+<!--    <Button android:text="C"/>-->
+<!--    <Button android:text="D"/>-->
+<!--    <Button android:text="E"/>-->
+<!--    <Button android:text="F"-->
+<!--        android:layout_row="1"-->
+<!--        android:layout_column="1"-->
+<!--        android:layout_gravity="right"/>-->
+
+<!--5. 열 행 병합하기. columnSpan, rowSpan 사용-->
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="3">
+    <Button android:text="A"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"/>
+    <Button android:text="B"/>
+    <Button android:text="C"/>
+    <Button android:text="D"/>
+    <Button android:text="E"/>
+    <Button android:text="F"/>
+
+</GridLayout>
