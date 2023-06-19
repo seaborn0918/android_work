@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "Ch18_network"
 include ':app'
 include ':ch18_retrofit'
+include ':ch18_news'
