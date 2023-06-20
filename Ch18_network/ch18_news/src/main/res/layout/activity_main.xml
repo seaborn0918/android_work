@@ -23,5 +23,5 @@
     <!-- 4. DTO 파일 두 개 만들기 -->
     <!-- 5. 뷰홀더 만들기. MyAdapter 만들기 -->
     <!-- 6. MyApplication 컴패니언 클래스 만들기. VolleyFragment 수정-->
-
+    <!-- 7. INetworkService 인터페이스 만들기. RetrofitFragment 수정-->
 </LinearLayout>
